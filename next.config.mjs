@@ -7,6 +7,8 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export", // Permet d'exporter un site statique
+  distDir: "out",   // Dossier de sortie
   eslint: {
     ignoreDuringBuilds: true,
   },
